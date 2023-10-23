@@ -11,6 +11,10 @@
   height: 188px;
   background-color: var(--primary-black-color);
 }
+#sidebar-error {
+  width: 335px;
+  height: 188px;
+}
 .sidebar-quotewrap {
   display: flex;
 }
@@ -69,15 +73,6 @@
   height: 20px;
   fill: var(--primary-white-color);
 }
-#refreshQuoteButton {
-  position: relative;
-  bottom: 16px;
-  left: 270px;
-  fill: var(--primary-white-color);
-  background-color: transparent;
-  transition: transform 250ms linear;
-  rotate: 0;
-}
 .sidebar-photo {
   border-radius: 20px;
   overflow: hidden;
@@ -117,7 +112,7 @@
   padding: 10px 0;
   color: var(--primary-black-color);
   font-family: var(--primary-fontfont-family);
-  font-size: 14.3px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.286;
   letter-spacing: 0.0001em;
@@ -145,6 +140,7 @@
 @media screen and (max-width: 374.98px) {
   .sidebar-photo,
   .sidebar-quote,
+  #sidebar-error,
   .sidebar-info {
     width: 250px;
     height: auto;
@@ -152,11 +148,14 @@
   .sidebar-quoteitem {
     margin-right: -40px;
   }
+  .sidebar-quote h2 {
+    font-size: 14px;
+  }
   .sidebar-quote p {
-    width: 190px;
+    width: 150px;
   }
   .sidebar-info p {
-    width: 180px;
+    width: 150px;
     padding: 5px 0;
     font-size: 13px;
   }
@@ -193,6 +192,7 @@
     height: 249px;
   }
   .sidebar-quote,
+  #sidebar-error,
   .sidebar-info {
     padding: 40px;
     width: 400px;
@@ -208,7 +208,7 @@
   .sidebar-info p {
     width: 270px;
     height: 97px;
-    font-size: 13.5px;
+    font-size: 13.9px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -216,7 +216,8 @@
     flex-direction: column;
     gap: 32px;
   }
-  .sidebar-quote {
+  .sidebar-quote,
+  #sidebar-error {
     width: 444px;
     height: 230px;
   }
@@ -235,8 +236,10 @@
   .sidebar-info p {
     width: 314px;
     height: 163px;
-    font-size: 13.5px;
-    font-size: 13px;
+    font-size: 14px;
     padding: 0;
+  }
+  .image-error404 {
+    width: 444px;
   }
 }
