@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test-project-dt-js/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    
-    <script type="module" crossorigin src="/test-project-dt-js/assets/loader-35c17af5.js"></script>
-    <link rel="stylesheet" href="/test-project-dt-js/assets/loader-55a0f678.css">
-  </head>
-  <body>
-    <div class="loading-overlay">
+
+<head>
+	<meta charset="UTF-8" />
+	<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADiSURBVHgB7ZSxCYQwFIZfDltdwFrQCWwdxD20sLTQ2hXcwFJBWydwAgdQB7i7PMgjasQT0xz4gfiT/+fnhZCw9xfQyAs088eFQRCA4zjQNA2t1XWNa9z7qXAYBuj7HvU4jvif55n8ZVlWnpwXGEJwIwxD1FVVwRnbvOu6+wkF0zTBFeS89kOhLcdxrAykaQpFUewmkYmiCLqug9WEdy4MY4w0FeZ5rgwnSQJt2+LHtYosy/aFuqBCy7LgCkd5OhTP86AsSwxyfcZR3pBDvu+Ttm0bb4Q8iWma5G3zAva8h7f5AAQFWPdAPylcAAAAAElFTkSuQmCC" />
+	<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Your Energy</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+		integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+  <script type="module" crossorigin src="/test-project-dt-js/assets/loader-aece41e8.js"></script>
+  <link rel="stylesheet" href="/test-project-dt-js/assets/loader-dfd61aa1.css">
+</head>
+
+<body>
+	<!-- <div class="loading-overlay">
   <div class="loading-text">Завантаження</div>
-</div>
+</div> -->
 <header class="header">
   <div class="header-container container">
     <div class="header-logo-container">
@@ -159,72 +158,88 @@
 </header>
 
 
-    <main>
-      <section class="hero">
+	<main>
+		<section class="hero">
   <div class="container">
-    <h1>Get <span>Body</span> in shape, Stay healthy</h1>
-    <p>
+    <div class="hero-title-container">
+      <img src="../img/hero/30.png" alt="" />
+      <h1 class="hero-title">Get <span>Body</span> in shape, Stay healthy</h1>
+    </div>
+    <p class="hero-text">
       Transform your physique and embrace a healthier lifestyle with our
       comprehensive fitness and nutrition support.
     </p>
-    <picture>
-      <source
-        srcset="/test-project-dt-js/assets/hero1x-5461a41d.png 1x, /test-project-dt-js/assets/hero2x-c3ae7c9f.png 2x"
-        media="(min-width: 1440px)"
-      />
-      <source
-        srcset="/test-project-dt-js/assets/hero-tablet1x-316f7084.png 1x, /test-project-dt-js/assets/hero-tablet2x-22bf5d9a.png 2x"
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="/test-project-dt-js/assets/hero-mobile1x-d3ae5d8f.png 1x, /test-project-dt-js/assets/hero-mobile2x-013de0ec.png 2x"
-        media="(max-width: 767px)"
-      />
-      <img src="/test-project-dt-js/assets/hero1x-5461a41d.png" alt="" />
-    </picture>
-    <div class="tags">
-      <ul>
-        <li>#Sport</li>
-        <li>#Healthy</li>
-        <li>#Workout</li>
-        <li>#Diet</li>
+    <div class="hero-img">
+      <picture>
+        <source
+          srcset="/test-project-dt-js/assets/hero-desktop1x-7ea8ff7b.png 1x, /test-project-dt-js/assets/hero-desktop2x-8802620a.png 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/test-project-dt-js/assets/hero-tablet1x-d5173d11.png 1x, /test-project-dt-js/assets/hero-tablet2x-75844a92.png 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/test-project-dt-js/assets/hero-mobile1x-3acb670a.png 1x, /test-project-dt-js/assets/hero-mobile2x-af5ef8b9.png 2x"
+          media="(max-width: 767px)"
+        />
+        <img src="/test-project-dt-js/assets/hero-desktop1x-7ea8ff7b.png" alt="" />
+      </picture>
+    </div>
+    <div class="hero-tags">
+      <ul class="hero-tags-list">
+        <li class="hero-tags-item">#Sport</li>
+        <li class="hero-tags-item">#Healthy</li>
+        <li class="hero-tags-item">#Workout</li>
+        <li class="hero-tags-item">#Diet</li>
       </ul>
     </div>
   </div>
 </section>
 
 
-      <section class="exercises">
-	<div class="container">
-		<div class="cat-filter-container">
-			<h2 class="exercises-title">Exercises / <span class="exercises-title-span"></span></h2>
-			<ul class="cat-filter-list">
-				<li class="cat-filter-item">
-					<input type="text" class='cat-filter-input' hidden>
-					<button type="button" class="cat-filter-btn" data-name="Body parts">
-						Body parts
-					</button>
-				</li>
-				<li class="cat-filter-item">
-					<button type="button" class="cat-filter-btn" data-name="Muscles">
-						Muscles
-					</button>
-				</li>
-				<li class="cat-filter-item">
-					<button type="button" class="cat-filter-btn" data-name="Equipment">
-						Equipment
-					</button>
-				</li>
-			</ul>
-		</div>
-		<div class="exercises-wrapper">
-			<div class="categories-wrapper">
+		<section class="exercises">
+  <div class="container">
+    <div class="cat-filter-container">
+      <h2 class="exercises-title">
+        Exercises / <span class="exercises-title-span"></span>
+      </h2>
+      <div class="filter-container">
+        <input
+          type="text"
+          class="cat-filter-input"
+          placeholder="Search"
+          hidden
+        />
+        <ul class="cat-filter-list">
+          <li class="cat-filter-item">
+            <button
+              type="button"
+              class="cat-filter-btn active"
+              data-name="Body parts"
+            >
+              Body parts
+            </button>
+          </li>
+          <li class="cat-filter-item">
+            <button type="button" class="cat-filter-btn" data-name="Muscles">
+              Muscles
+            </button>
+          </li>
+          <li class="cat-filter-item">
+            <button type="button" class="cat-filter-btn" data-name="Equipment">
+              Equipment
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="exercises-wrapper">
+      <div class="categories-wrapper"></div>
 
-
-</div>
-			<aside class="sidebar">
+      <aside class="sidebar">
   <ul class="sidebar-list">
-    <li class="sidebar-quote">
+    <li class="sidebar-quote" id="app">
       <ul class="sidebar-quotewrap">
         <li>
           <svg class="sidebar-quotesvg1" width="18" height="20">
@@ -243,6 +258,13 @@
         </li>
       </ul>
     </li>
+    <div id="sidebar-error" style="display: none">
+      <img
+        class="image-error404"
+        src="/test-project-dt-js/assets/error-404-342914bc.jpg"
+        alt="error404"
+      />
+    </div>
     <li>
       <picture>
         <source
@@ -291,18 +313,24 @@
   </ul>
 </aside>
 
-		</div>
-	</div>
+    </div>
+  </div>
 </section>
-    </main>
 
-    <footer class="footer">
+	</main>
+
+	<footer class="footer">
   <div class="container">
     <div class="footer_wrap3">
       <div class="footer_wrap_wrap1_foottitle">
         <div class="footer_wrap1_logo_soc">
           <a class="footer_logo_link" href="./index.html">
-            <svg class="footer_logo_icon" width="132" height="24">
+            <svg
+              id="footer_logo_icon"
+              class="footer_logo_icon"
+              width="132"
+              height="24"
+            >
               <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-logo"></use>
             </svg>
           </a>
@@ -379,13 +407,14 @@
         </ul>
 
         <p class="footer_text_year">©2023</p>
+        <button type="button" class="team-btn-open">Produced by</button>
       </div>
     </div>
   </div>
 </footer>
 
 
-    <!-- ? TEST BTN -->
+	<!-- ? TEST BTN -->
 
 <button
   type="button"
@@ -396,7 +425,7 @@
   F*cking magic
 </button>
 
-    <button
+	<button
   type="button"
   class="form-modal-btn">
   Оценка
@@ -413,35 +442,18 @@
           
           <p class="form-modal-title">Rating</p>
           
-          <div class="form-stars">
-            <ul class="total-stars">
-                <p class="total-stars-title">0.0</p>
-                <li class="star">
-                    <svg class="team-icon-star" width="24" height="24">
-                        <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-star"></use>
-                    </svg>
-                </li>
-                <li class="star">
-                    <svg class="team-icon-star" width="24" height="24">
-                        <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-star"></use>
-                    </svg>
-                </li>
-                <li class="star">
-                    <svg class="team-icon-star" width="24" height="24">
-                        <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-star"></use>
-                    </svg>
-                </li>
-                <li class="star">
-                    <svg class="team-icon-star" width="24" height="24">
-                        <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-star"></use>
-                    </svg>
-                </li>
-                <li class="star">
-                    <svg class="team-icon-star" width="24" height="24">
-                        <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-star"></use>
-                    </svg>
-                </li>
-            </ul>
+          <div class="rating rating_set">
+            <div class="rating_value">0.0</div>
+            <div class="rating_body">
+                <div class="rating_active"></div>
+                <div class="rating_items">
+                    <input type="radio" class="rating_item" value="1" name="rating">
+                    <input type="radio" class="rating_item" value="2" name="rating">
+                    <input type="radio" class="rating_item" value="3" name="rating">
+                    <input type="radio" class="rating_item" value="4" name="rating">
+                    <input type="radio" class="rating_item" value="5" name="rating">
+                </div>
+            </div>
           </div>
           <div class="form-info">
             <input type="email" name="email" placeholder="Email" class="form-info-item form-mail-input">
@@ -450,9 +462,7 @@
           <button type="submit" class="form-submit-btn">Send</button>
     </div>
 </div>
-    <button type="button" class="team-btn-open">Test btn</button>
-<!--  -->
-<div class="team-backdrop is-hidden">
+	<div class="team-backdrop is-hidden">
   <div class="team-modal">
     <div class="team-wrapper">
       <button type="button" class="team-btn-close">
@@ -476,16 +486,31 @@
   </div>
 </div>
 
-    <div id="loader" class="mask">
+	<div id="loader" class="mask">
     <div class="loader"></div>
-    <svg aria-label="Spinner">
+    <svg class="spinner" width="28" height="28">
+        <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-dumbbell"></use>
+      </svg>
+
+<!--     
+    <svg aria-label="Spinner" class="svg-color">
 
         <use class="spinner" href="/src/img/sport-sprite.svg"></use>
-    </svg>
+    </svg> -->
     <!-- <img src="img/Vector.svg" alt="Loader Spinner" class="spinner"> -->
 </div>
-    
+	<div class="scroll-up ">
+    <svg  viewbox ="-2 -2 52 52">
+        <path class="scroll-up__path" d = "M24,0
+        a24,24 0 0,1 0,48
+        a24,24 0 0,1 0,-48"/>
+        <svg class="arrow-up" width="50" height="50">
+            <use href="/test-project-dt-js/assets/sport-sprite-305147a1.svg#icon-arrow-up"></use>
+          </svg>
+    </svg>
+</div>
 
-    
-  </body>
+	
+</body>
+
 </html>
